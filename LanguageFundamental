@@ -1,0 +1,176 @@
+#Introduction to python
+#Identifiers
+Variable name
+number1=20
+number2=36
+name="Rohan"
+name2="Anand"//variable_name=value
+example:
+# Using variables in a function
+def calculate_area(radius):
+    pi = 3.14
+    area = pi * radius**2
+    return area
+
+radius_value = 5
+result_area = calculate_area(radius_value)
+print(result_area)
+
+class name also.
+:class MyRouteen:
+def __init__(self, value):
+    self.value = value
+
+obj = MyClass(42)
+print(obj.value)
+
+Module name 
+ function name
+ example:
+ def add_numbers(x, y):
+    return x + y
+
+result = add_numbers(10, 20)
+print(result)
+
+Module:
+MyPython
+       ->Programe1.py
+       ->Program2.py
+Programe1.py
+def greet(name):
+    print(f"Hello, {name}!")
+Program2.py
+import Programe1.py
+my_module.greet("Alice")
+
+pritn()
+#Rules to define identifiers in python
+my_name  
+cash
+cas$h
+123number=10
+total34number=40
+
+Python is a case Case senstive language
+total=100
+Total=200
+
+alphabet(Upper case or lower case)
+_
+2892name="Anand"
+Example:
+123total=100
+total123=20;
+java2share="Anand"
+nam$e="Anand"
+_number1=200
+_number1=200
+_number_a=200
+
+#Data type
+1.bag
+cookies
+red,green,yellow
+data red cookies
+data green color
+data red color
+
+In Python There are 14 Data types
+1.int(1,2,3,4,5,6,7,.....)
+Stands for integer, representing whole numbers
+ without a fractional component.
+ (0,12,3,4,5,6,..........,infinte)
+num1=100
+2.float(0.1,0.3,10.10)
+Represents floating-point numbers with 
+a decimal point or an exponent notation.
+num=100.23
+3.Complex
+4+3j
+4(Real number)
+3j(Imeginary number)
+
+4.bool
+True,False,None
+True : 1
+False  0
+
+5.str(String)
+Sequence of charecter is known as string
+"akjbdilbfsbie"
+'sbafibeogugfbosr'
+'sjbdiabfvosbvoagb'
+'sjkbodfh9820259u83ncvvd'
+""
+'Anand'
+0-A
+1-n
+2-a
+3-n
+4-d
+
+6.bytes
+7.bytearray
+8.range
+my_range=range(1,6)
+start,end,step=1
+my_range=1,2,3,4,5
+range(1,6,2)
+1,3,5
+
+9.list
+Represents a mutable, ordered sequence of elements.
+ Lists can 
+contain elements of different data types.
+String
+"Anand"
+"Rohan"
+Float
+3.4,5.4,5.8 
+Int
+23,24,25,
+
+[23,24,25,3.4,5.4,5.8,"Anand","Rohan"]
+
+10.tuple
+Represents an immutable, ordered sequence of elements. 
+Tuples can contain elements of different data types.
+
+(23,24,25,3.4,5.4,5.8,"Anand","Rohan")
+
+11.set
+Represents an unordered collection of 
+unique elements.
+Sets do not allow duplicate elements.
+
+12.frozenset
+13.dict
+key-value pair 
+student={'name1':"Anand",'name2':"Rohan",'name3':"Akash"}
+
+14.None date type
+number=None
+_____
+|    |
+|____|
+
+Decalation,defination,assignment
+
+number=None
+True,False
+
+
+#spliting sting
+[Start:Stop:step]
+range(start,stop,step)
+[],range(1,3)
+
+#Type casting
+example
+
+number=45
+print()
+
+
+
